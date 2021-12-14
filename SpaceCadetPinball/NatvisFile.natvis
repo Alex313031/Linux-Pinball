@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+	<Type Name="ColorRgba">
+		<DisplayString>{{ Color:{Color} }}</DisplayString>
+		<Expand>
+			<Item Name="[Alpha]" ExcludeView="simple">Color>>alphaOffset &amp; 255</Item>
+			<Item Name="[Red]" ExcludeView="simple">Color>>redOffset &amp; 255</Item>
+			<Item Name="[Green]" ExcludeView="simple">Color>>greenOffset &amp; 255</Item>
+			<Item Name="[Blue]" ExcludeView="simple">Color>>blueOffset &amp; 255</Item>
+			<Item Name="[Color]" ExcludeView="simple">Color</Item>
+		</Expand>
+	</Type>
+</AutoVisualizer>
