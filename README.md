@@ -8,4 +8,7 @@ Requires libsdl2-dev and timidity to be installed.
 Simply unpack and run the .desktop file, or run ./SpaceCadetPinball, and enjoy!
 
 ## Building
+
+Requires libsdl2-dev, libsdl2-mixer-dev, libudev-dev, and timididy to be installed.
+
 Clone this repo, (the bin dir has the extra stuff already in it), cd to the dir, run `cmake .` then `make` That's it!
