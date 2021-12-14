@@ -13,4 +13,4 @@ Requires libsdl2-dev, libsdl2-mixer-dev, libudev-dev, and timididy to be install
 
 Clone this repo, (the bin dir has the extra stuff already in it), cd to the dir, run `cmake .` then `make` That's it!
 
-# The original readme is renamed to README.txt
+The original readme is renamed to README.txt
