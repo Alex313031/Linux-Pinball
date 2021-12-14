@@ -6,3 +6,6 @@ Includes the .mid, .wav, and .dat files along with icons and a .desktop file. Th
 Requires libsdl2-dev and timidity to be installed. 
 
 Simply unpack and run the .desktop file, or run ./SpaceCadetPinball, and enjoy!
+
+## Building
+Clone this repo, (the bin dir has the extra stuff already in it), cd to the dir, run `cmake .` then `make` That's it!
